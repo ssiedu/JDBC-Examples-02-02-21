@@ -17,7 +17,7 @@ public class AddData {
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("Driver Loaded...");
             //step-2 (Connection Establishment)
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/batch5", "root", "root");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/batch5", "root", "root");
             System.out.println("Connected Successfully....");
             //step-3 (Define a SQL command to do desired operation)
             //String sql="INSERT INTO EMP VALUES(111,'AAA',10000)";
